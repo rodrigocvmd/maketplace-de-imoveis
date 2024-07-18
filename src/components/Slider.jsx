@@ -59,7 +59,7 @@ function Slider() {
 					slidesPerView={1}
 					pagination={{ clickable: true }}
 					navigation
-					style={{ height: "300px" }}>
+					style={{ height: "380px" }}>
 					{listings.map(({ data, id }) => {
 						return (
 							<SwiperSlide key={id} onClick={() => navigate(`/category/${data.type}/${id}`)}>
@@ -69,10 +69,10 @@ function Slider() {
 										background: `url(${data.imgUrls[0]}) center no-repeat`,
 										backgroundSize: "cover",
 									}}>
-									<p className="swiperSlideText" style={{ marginTop: "130px" }}>
+									<p className="swiperSlideText" style={{ marginTop: "170px" }}>
 										{data.name}
 									</p>
-									<p className="swiperSlidePrice" style={{ marginTop: "110px" }}>
+									<p className="swiperSlidePrice" style={{ marginTop: "165px" }}>
 										R${" "}
 										{data.discountedPrice ??
 											data.regularPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}{" "}
