@@ -87,7 +87,8 @@ function SignIn() {
 
 					<OAuth />
 
-					<Link to="/sign-up" className="registerLink">
+					<hr style={{ width: "180px"}}></hr>
+					<Link to="/sign-up" className="registerLink" style={{ marginTop: "16px" }}>
 						Cadastre-se
 					</Link>
 				</main>

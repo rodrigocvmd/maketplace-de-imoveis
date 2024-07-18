@@ -99,7 +99,7 @@ function SignUp() {
 						<Link to="/forgot-password" className="forgotPasswordLink">
 							Esqueci a senha
 						</Link>
-						<div className="signUpBar">
+						<div className="signUpBar" style={{ marginTop: "6px" }}>
 							<p className="signUpText">Cadastrar</p>
 							<button className="signInButton">
 								<ArrowRightIcon fill="#ffffff" width="34px" height="34px" />
@@ -108,7 +108,8 @@ function SignUp() {
 					</form>
 
 					<OAuth />
-					<Link to="/sign-in" className="registerLink">
+					<hr style={{ width: "180px" }}></hr>
+					<Link to="/sign-in" className="registerLink" style={{ marginTop: "16px" }}>
 						Já tenho uma conta
 					</Link>
 				</main>

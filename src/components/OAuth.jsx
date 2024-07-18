@@ -34,9 +34,9 @@ function OAuth() {
 	};
 
 	return (
-		<div className="socialLogin">
+		<div className="socialLogin" style={{marginTop: "4px"}}>
 			<p>{location.pathname === "/sign-up" ? "Cadastrar" : "Entrar"} com provedor: </p>
-			<button className="socialIconDiv" onClick={onGoogleClick}>
+			<button style={{marginTop: "4px"}} className="socialIconDiv" onClick={onGoogleClick}>
 				<img className="socialIconImg" src={googleIcon} alt="google icon" />
 			</button>
 		</div>
