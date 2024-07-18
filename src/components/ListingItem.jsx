@@ -14,7 +14,7 @@ function ListingItem({ listing, id, onDelete, onEdit }) {
 					<p className="categoryListingName">{listing.name}</p>
 
 					<p className="categoryListingPrice">
-						$
+						R${" "}
 						{listing.offer
 							? listing.discountedPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
 							: listing.regularPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}

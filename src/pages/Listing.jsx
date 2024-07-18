@@ -88,7 +88,10 @@ function Listing() {
 				<p className="listingType">Imóvel {listing.type === "rent" ? "para alugar" : "à venda"}</p>
 				{listing.offer && (
 					<p className="discountPrice">
-						Desconto de R$ {" "} {listing.regularPrice - listing.discountedPrice}
+						Desconto de R${" "}
+						{(listing.regularPrice - listing.discountedPrice)
+							.toString()
+							.replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
 					</p>
 				)}
 
