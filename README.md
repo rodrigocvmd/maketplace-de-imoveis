@@ -79,12 +79,6 @@ Durante o desenvolvimento deste projeto, foram reforçadas habilidades important
 
 ---
 
-## 🖥️ Demonstração
-
-Adicione aqui screenshots ou GIFs mostrando a funcionalidade da aplicação.
-
----
-
 ## 🛠️ Como Executar
 
 1. Clone o repositório:
